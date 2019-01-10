@@ -64,3 +64,156 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+
+header, section, footer {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: center;
+	align-content: center;
+	/*align-items: space-around;*/
+}
+
+header nav, section div, footer div{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	/*align-content: center;*/
+	/*align-items: space-around;*/
+
+	border: 1px solid blue;
+}
+
+.help{ border: 1px solid blue; }
+
+/*----------------------------------------------------------*/
+
+.header{
+	border: 1px solid blue;
+	height:10%;
+}
+
+.header nav {
+	width: 90%;
+	border: 1px solid blue;
+	 
+}
+
+.header nav a, img{
+	border: 1px solid blue;
+	/*width: 95%;*/
+	/*align-content: space-between;*/
+	/*justify-content: space-around;*/
+	
+}
+
+
+
+/*-----------------------------------------------------------------------------------*/
+
+section.billboard {
+	height: 50%;
+	justify-content: space-around;
+	align-items: center;
+	text-align: center
+
+}
+
+section.billboard div{
+	height: 99%;
+	width: 49%;
+	flex-direction: column;
+	justify-content: center;
+	align-content: space-around;
+	align-items: center;
+}
+
+section.billboard h1{
+	font-size: 65px;
+	width: 60%;
+	
+}
+
+section.billboard a{
+	border: 2px solid black;
+	height: 10%;
+	width: 30%;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	
+	text-decoration: none;
+
+}
+
+
+/*-------------------------------------------------------*/
+
+section.index-sec1{
+	border: 1px solid red;
+	height:15%;
+	display:flex;
+	justify-content: space-around;
+}
+
+section.index-sec1  div{
+	height: 90%;
+	width: 45%;
+	display: flex;
+	flex-direction: column;
+}
+
+section.index-sec1  div h2{
+	font-size: 175%;
+}
+
+section.index-sec1  div p{
+	font-size: 105%;
+}
+
+/*-----------------------------------------------------------*/
+
+section.index-sec2{
+	height: 25%;
+}
+
+/*-------------------------------------------------------------*/
+
+section.index-sec3{
+	height:15%;
+	display:flex;
+	justify-content: space-around;
+}
+
+section.index-sec3  div{
+	height: 95%;
+	width: 32%;
+	display: flex;
+	flex-direction: column;
+}
+
+section.index-sec3 div h2{
+	font-size: 175%;
+}
+
+section.index-sec3  div p{
+	font-size: 105%;
+}
+/*------------------------------------------------------------------*/
+
+.footer{
+	height: 20%;
+	flex-direction: column;
+	/*justify-content: flex-start;*/
+}
+
+.footer div{
+	height: %;
+	width: 30%;
+}
+
+.footer div h2{
+	font-size: 125%
+}
