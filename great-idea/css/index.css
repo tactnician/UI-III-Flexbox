@@ -212,4 +212,101 @@ p.copyright {
 
 /* ---- Services Page ----------------*/
 
+section.splash{
+	display: flex;
+	border-bottom: 2px solid black;
+	height: 18%;
+	margin-bottom: 3%;
+}
 
+.splash h1{
+	font-size: 250%;
+	margin: 2% 0;
+}
+
+.splash p{
+	font-size: 110%;
+}
+
+/*----------------------------------*/
+
+section.p2-sec1{
+	height: 40%;
+	margin-bottom: 5%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: space-between;
+
+}
+
+.card{
+
+	height: 30%;
+	width: 45%;
+	background: whitesmoke;
+	border: 1px solid black;
+	padding: 3%;
+	margin: 2%;
+
+}
+
+.card h2{
+	font-size: 125%;
+}
+
+.card p{
+	font-size: 105%;
+}
+
+.card button{
+	border: 1px solid black;
+	border-radius: 5px;
+	background: white;
+	margin-top: 5%;
+	padding: 1% 3%;
+}
+
+.card button:hover {
+	background: black;
+	color: white;
+}
+
+/*---------------------------------*/
+
+section.p2-sec2{
+	margin-top: 3%;
+	border-top: 2px solid black;
+	display: flex;
+	/*flex-wrap: nowrap;*/
+	justify-content: space-around;
+
+}
+
+.facts{
+	height:30%;
+	width: 45%;
+	margin-top: 5%;
+
+}
+
+.services-info-img{
+	margin-top: 5%;
+
+}
+.facts h2{
+	font-size: 125%;
+}
+
+.facts p{
+	font-size: 105%;
+}
+
+.footer-p2{
+	text-align: center;
+	margin-top: 5%;
+}
+
+.list{
+	list-style:square;
+}
