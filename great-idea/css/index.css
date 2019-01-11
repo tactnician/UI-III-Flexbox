@@ -159,12 +159,13 @@ section.index-sec1  div p{
 
 section.index-sec2{
 	/*height: 25%;*/
+	margin-bottom: 3%;
 }
 
 /*-------------------------------------------------------------*/
 
 section.index-sec3{
-	margin: 0 2%;
+	/*margin: 0 2%;*/
 	height:10%;
 	display:flex;
 	justify-content: space-around;
@@ -177,6 +178,8 @@ section.index-sec3  div{
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+	/*margin: 3% 2% 3% 2%;*/
+
 }
 
 section.index-sec3 div h2{
@@ -198,3 +201,15 @@ section.index-sec3  div p{
  .footer-p1 h2{
  	font-size: 175%;
  }
+
+.footer-p1 p{
+	margin: 3% 0;
+}
+p.copyright {
+	text-align: center;
+}
+
+
+/* ---- Services Page ----------------*/
+
+
